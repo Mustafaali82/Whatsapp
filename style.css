@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Header Section Styling */
+
+header {
+    padding: 30px;
+    background-color: #FCF5EB;
+}
+
+.logo {
+    width: 150px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav div ul {
+    display: flex;
+}
+
+header nav div ul li {
+    list-style-type: none;
+    padding: 20px;
+    color: #1c1e21;
+    font-size: 18px;
+}
+
+button {
+    padding: 16px 28px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: #25D366;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 500;
+}
+
+button img {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+header nav div button:hover {
+    background-color: white;
+    color: black;
+    filter: invert(1);
+}
+
+/* Section STyling */
+
+.img-with-text {
+    padding: 30px  200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.text p{
+    width: 500px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Footer Section Styling */
+
+footer {
+    background-color: #111B21;
+    color: #FFFFFF;
+    padding: 50px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-box span {
+    font-size: 12px;
+    padding: 10px;
+    color: #f0f4f9;
+}
+
+.footer-box h4 {
+    font-size: 19px;
+    font-weight: 400;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer-box h4:hover {
+    text-decoration: underline;
+}
+
+.footer-box button:hover {
+    background-color: none;
+}
+
+.footer-main-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f0f4f9;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.copyright-box {
+    display: flex;
+}
+
+.copyright-box p {
+    margin-right: 50px;
+    width: 110px;
+    font-size: 12px;
+    color: #f0f4f9;
+}
+
+.copyright-box img {
+    padding: 18px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 18px;
+}
+
+
+
+option {
+    color: black;
+    text-align: start;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-size: 20px;
+    width: 200px;
+    height: 58px;
+    outline: none;
+    text-align: center;
+    padding-left: 50px;
+}
