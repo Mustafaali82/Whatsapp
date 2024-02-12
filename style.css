@@ -6,13 +6,13 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: #FCF5EB;
 }
 
 /* Header Section Styling */
 
 header {
     padding: 30px;
-    background-color: #FCF5EB;
 }
 
 .logo {
@@ -71,8 +71,45 @@ header nav div button:hover {
     color: white;
     display: flex;
     justify-content: space-between;
+    gap: 60px;
+    align-items: center;
 }
 
+.hero-section-text h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: -4px;
+    margin-bottom: 20px;
+}
+
+.hero-section-text p{
+    width: 340px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.images{
+    text-align: center;
+    padding: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images h1{
+    font-size: 48px;
+    font-weight: 500;
+    width: 1000px;
+    margin: 20px 0;
+    line-height: 60px;
+}
+
+.images img{
+    width: 100%;
+}
 
 
 .hero-section-image img {
@@ -88,23 +125,44 @@ header nav div button:hover {
 }
 
 .img-with-text {
-    padding: 30px 200px;
+    padding: 50px 200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 60px;
+    gap: 100px;
 }
 
 .text h1 {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 15px;
+    font-weight: 500;
+    width: 500px;
+    line-height: 60px;
 }
 
 .text p {
     width: 500px;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 15px;
+}
+
+.text button{
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    padding: 0;
+    border-bottom:  2px solid #25D366;
+    border-radius: 0;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.text button:hover{
+    color: #25D366;
+}
+
+.bg-add button{
+    color: white;
 }
 
 .bg-add {
