@@ -61,23 +61,60 @@ header nav div button:hover {
 
 /* Section STyling */
 
-.img-with-text {
-    padding: 30px  200px;
+.hero-section {
+    background-image: url(Assets/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 26px;
+    border-radius: 24px;
+    padding: 50px 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.hero-section-image img {
+    width: 500px;
+}
+
+.hero-section-image {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 38px;
 }
 
-.text h1{
-  font-size: 40px;
-  margin-bottom: 15px;
+.img-with-text {
+    padding: 30px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 
-.text p{
+.text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.text p {
     width: 500px;
     line-height: 30px;
     font-size: 18px;
     margin-bottom: 15px;
+}
+
+.bg-add {
+    background-color: #111B21;
+    color: white;
+    flex-direction: row-reverse;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 /* Footer Section Styling */
