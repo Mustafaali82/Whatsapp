@@ -13,6 +13,9 @@ body {
 
 header {
     padding: 30px;
+    position: sticky;
+    background-color: #FCF5EB;
+    top: 0;
 }
 
 .logo {
@@ -75,7 +78,7 @@ header nav div button:hover {
     align-items: center;
 }
 
-.hero-section-text h1{
+.hero-section-text h1 {
     font-size: 80px;
     font-weight: 500;
     line-height: 90px;
@@ -83,14 +86,14 @@ header nav div button:hover {
     margin-bottom: 20px;
 }
 
-.hero-section-text p{
+.hero-section-text p {
     width: 340px;
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 20px;
 }
 
-.images{
+.images {
     text-align: center;
     padding: 30px 70px;
     display: flex;
@@ -99,7 +102,7 @@ header nav div button:hover {
     align-items: center;
 }
 
-.images h1{
+.images h1 {
     font-size: 48px;
     font-weight: 500;
     width: 1000px;
@@ -107,7 +110,7 @@ header nav div button:hover {
     line-height: 60px;
 }
 
-.images img{
+.images img {
     width: 100%;
 }
 
@@ -147,21 +150,21 @@ header nav div button:hover {
     margin-bottom: 15px;
 }
 
-.text button{
+.text button {
     background-color: rgba(255, 0, 0, 0);
     border: none;
     padding: 0;
-    border-bottom:  2px solid #25D366;
+    border-bottom: 2px solid #25D366;
     border-radius: 0;
     padding-bottom: 5px;
     font-size: 16px;
 }
 
-.text button:hover{
+.text button:hover {
     color: #25D366;
 }
 
-.bg-add button{
+.bg-add button {
     color: white;
 }
 
